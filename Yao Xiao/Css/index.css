@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+    color: #fff;
+}
+/*navbar*/
+.navbar-custom{
+    position: absolute;
+    border: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    letter-spacing: 1px;
+}
+.navbar-custom{
+    background: 0 0;
+    border-bottom: 1px solid transparent;
+    width: 100%;
+    z-index: 3;
+    font-family: -apple-system,BlinkMacSystemFont,
+                "Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",
+                STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC",
+                "Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC",
+                "Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+    line-height: 1.7;
+}
+.navbar{
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+.container-fluid{
+    padding: 0 15px 0 15px;
+    margin-left: 0;
+    margin-right: 0;
+    /*position: absolute;*/
+}
+.navbar-header{
+    margin: 0;
+    float: left;
+    padding-top: 0px;
+}
+.navbar-brand{
+    font-weight: 700;
+    /*color: #fff;*/
+    font-size: 18px;
+    padding: 10px;
+    line-height: 20px;
+    margin-left: -5px;
+    height: 56px;
+    z-index: 10;
+    width: 150px;
+    position: absolute;
+    color: #ffffff;
+
+}
+.navbar-hover:hover{
+    color: #D3D3D3;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #ffffff;
+    position: relative;
+}
+.navbar-collapse{
+    float: right;
+    width: 290px;
+    margin-right: -5px;
+
+}
+
+/*navbar end*/
+
+
+
+
+/*header*/
+.intro-header{
+    /*background-image:url("/images/home-bg.jpg");*/
+    background: no-repeat center center;
+    background-attachment: scroll;
+    background-color: #ccc;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+
+    width: 100%;
+    height: 430px;
+    margin-bottom: 20px;
+}
+.headercontainer{
+    height: 100%;
+    /*background-color: red;*/
+    margin: 0 50px;
+}
+.site-heading{
+    width: 100%;
+    height: 105px;
+    /*background-color: yellow;*/
+    text-align: center;
+    padding-top: 150px;
+    color: #fff;
+    font-size: 19px;
+}
+.site-heading h1{
+    font-size: 68px;
+}
+/*header end*/
+
+/*container*/
+
+/*personalcontainer*/
+.container{
+    margin: 35px 0 0 20px;
+    /*background-color: red;*/
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+}
+.personalcontainer {
+    margin-left: 150px;
+    /*padding: 0 10px;*/
+    /*background-color: yellow;*/
+    width: 80%;
+    height: 100%;
+
+}
+
+
+
+
+.identity{
+    margin-top: 30px;
+    height: auto;
+    width: 300px;
+    background-color: #ffffff;
+    float: left;
+    box-shadow: 0 1px 3px 0 #0000001a;
+	color:#686b6d;
+}
+
+.image{
+    height: 350px;
+    width: 100%;
+    /*background-color: yellow;*/
+    background: url(../images/p_big2.jpg) no-repeat center;
+    background-size: cover;
+    /*float: left;*/
+}
+
+
+.identity-list{
+	padding-top:5px;
+    font-size: 12px;
+    margin: 5px;
+    position: relative;
+}
+.title{
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.name{
+    margin-left: 10px;
+    padding-top: 8px;
+    /*float: left;*/
+    padding-bottom: 20px;
+
+}
+.tel{
+    font-weight: 600;
+    margin-left: 5px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.telNum{
+    margin-left: 38px;
+    padding-top: 5px;
+    display: block;
+}
+.address{
+    margin-top: 23px;
+}
+.address:before{
+    content: url(../images/coordinates_fill.png);
+}
+
+
+
+.personal{
+    width: 800px;
+    height: 100px;
+    /*background-color: red;*/
+    /*margin-left: 10px;*/
+    float: left;
+	margin-left:35px;
+	margin-top:60px;
+}
+.personal-title{
+    font-size: 25px;
+    font-weight: 800;
+    /*text-align: center;*/
+    margin-left: 30px;
+    /*font-family: "等线 Light";*/
+}
+
+.personal-hr{
+    height: 1px;
+    width: 100%;
+    background-color: #58666E;
+    margin-top: 10px;
+}
+
+
+.Enrolment-direction{
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+    /*background-color: red;*/
+    padding-bottom: 20px;
+}
+.directionTitle{
+    font-size: 19px;
+    font-weight: 800;
+}
+.content{
+    margin-left: 30px;
+    display: block;
+    font-size: 20px;
+	word-break: break-all;
+}
+
+.float-end{
+	clear:both;
+}
+
+/*footer*/
+.footer{
+	margin-top:300px;
+	float:none;
+	width:100%;
+	height:255px;
+	background-color:#2E2E2E;
+}
+.contract{
+	
+	color:#fff;
+	width:100%;
+}
+.contract_title{
+	padding-top:80px;
+	font-size:26px;
+	font-weight:600;
+	margin:auto;
+	width:280px;
+}
+.contract_hr{
+	width:100px;
+	height:1px;
+	background-color:#fff;
+}
+.contract_content{
+	margin-top:20px;
+	font-size:16px;
+	font-weight:500;
+}
+
+.link{
+	color:#fff;
+}
+.link:hover{
+	color:#686b6d;
+}
